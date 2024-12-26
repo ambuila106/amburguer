@@ -47,7 +47,7 @@ export default {
 <style>
 .footer {
   height: 60px;
-  background-color: orange;
+  background-color: #ef233c;
   box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.05);
   width: 100%;
   position: fixed;
@@ -56,7 +56,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #edf2f4;
 }
 
 .cart {
@@ -64,7 +64,7 @@ export default {
 }
 
 .cart span{
-  background-color: red;
+  background-color: #2b2d42;
   position: absolute;
   border-radius: 47px;
   width: 25px;

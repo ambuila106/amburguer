@@ -46,7 +46,7 @@ export default {
     },
 
     finalizeOrder(){
-      let number = 3227914251
+      let number = 3214020472
       let order = this.getTextOrder()
       window.location.href = 'https://wa.me/' + "57" + number + "?text=" + order
     }
@@ -74,7 +74,7 @@ export default {
 }
 
 .cart span{
-  background-color: red;
+  background-color: #2b2d42;
   position: absolute;
   border-radius: 47px;
   width: 25px;

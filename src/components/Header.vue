@@ -1,9 +1,9 @@
 <template>
   <div class="header">
     <div class="header__logo">
-      <img src="https://firebasestorage.googleapis.com/v0/b/papa-al-kilo.appspot.com/o/papa%20animada.png?alt=media" alt="">
+      <img src="https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/logo%20amburguer.png?alt=media&token=1dedc1a7-db0b-4967-a0c5-5f9694737eb4" alt="">
     </div>
-    <span class="header__title">Papa al Kilo</span>
+    <span class="header__title"></span>
   </div>
 </template>
 <script>
@@ -43,8 +43,9 @@ export default {
 }
 
 .header__logo {
-  height: 30px;
-  width: 30px;
+  margin: 7px 0 0 20px;
+  width: 250px;
+  object-fit: cover;
 }
 
 .header__logo img {

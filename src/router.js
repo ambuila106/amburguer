@@ -19,8 +19,8 @@ export default new Router({
       component: Home
     },
     {
-      path: '/papa-al-kilo',
-      name: 'papa-al-kilo',
+      path: '/amburguer',
+      name: 'amburguer',
       component: App,
       children: [
         {
