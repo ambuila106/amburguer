@@ -8,6 +8,10 @@
 
 export default {
   name: 'App',
+
+  mounted() {
+    document.title = "Amburguer";
+  }
 }
 </script>
 

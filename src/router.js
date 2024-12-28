@@ -22,6 +22,7 @@ export default new Router({
       path: '/amburguer',
       name: 'amburguer',
       component: App,
+      meta: { title: "Amburguer" },
       children: [
         {
           path: '/',

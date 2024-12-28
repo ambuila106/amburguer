@@ -51,7 +51,7 @@ const store = new Vuex.Store({
       {
         id: 6,
         image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/COCA-COLA-400-ML.png?alt=media&token=eac335a0-81bf-4fd0-b7a7-71b9031f6ea6",
-        name: "Cocacola 400ml",
+        name: "Cocacola 500ml",
         description: "",
         price: 5000,
         category: "general",
