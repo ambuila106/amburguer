@@ -67,7 +67,7 @@ export default {
 
   .card-product__image {
     padding: 1rem;
-    width: 100%; /* Ancho deseado del contenedor */
+    height: 150px; /* Ancho deseado del contenedor */
     overflow: hidden;
   }
 

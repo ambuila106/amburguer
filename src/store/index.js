@@ -45,7 +45,7 @@ const store = new Vuex.Store({
         image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/pngwing.com.png?alt=media&token=e9d5e2d2-e4d4-4b86-b8eb-a35ea9ab3f08",
         name: "Papas a la francesa",
         description: "",
-        price: 4000,
+        price: 5000,
         category: "general",
       },
       {
@@ -54,6 +54,22 @@ const store = new Vuex.Store({
         name: "Cocacola 500ml",
         description: "",
         price: 5000,
+        category: "general",
+      },
+      {
+        id: 7,
+        image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/agua-brisa.png?alt=media&token=aa287a92-79ff-4f01-a7fd-c4498e5210cd",
+        name: "Agua Brisa 600ml",
+        description: "",
+        price: 3000,
+        category: "general",
+      },
+      {
+        id: 7,
+        image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/licuado-amarillo.png?alt=media&token=32571ce3-94b6-4888-8a97-01e8e73cc7ad",
+        name: "Licuado frutos amarillos",
+        description: "",
+        price: 6000,
         category: "general",
       },
     ]
