@@ -76,6 +76,8 @@ export default {
 .home {
   background-color: #f3f3f3;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .products {
@@ -83,6 +85,7 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  max-width: 700px;
 }
 
 .slide-fade-enter-active {

@@ -10,7 +10,7 @@ const store = new Vuex.Store({
     products:[
       {
         id: 1,
-        image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/La%20detonadora.png?alt=media&token=1c83a244-49c1-4d92-a8ad-299903145cbb",
+        image: "https://i.imgur.com/ww7iD0L.png",
         name: "La Detonadora",
         description: "Pan artesanal, carne de res, tocino, queso cheddar, cebolla sofrita, lechuga, tomate, salsa de maíz, salsa de tomate y mayonesa",
         price: 15900,
@@ -18,7 +18,7 @@ const store = new Vuex.Store({
       },
       {
         id: 2,
-        image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/La%20detonadora.png?alt=media&token=1c83a244-49c1-4d92-a8ad-299903145cbb",
+        image: "https://i.imgur.com/ww7iD0L.png",
         name: "La Boff",
         description: "Pan artesanal, huevo, carne de res, tocino, queso cheddar, cebolla sofrita, lechuga, tomate, salsa de maíz, salsa de tomate y mayonesa",
         price: 17900,
@@ -26,7 +26,7 @@ const store = new Vuex.Store({
       },
       {
         id: 3,
-        image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/La%20detonadora.png?alt=media&token=1c83a244-49c1-4d92-a8ad-299903145cbb",
+        image: "https://i.imgur.com/ww7iD0L.png",
         name: "La Quesuda",
         description: "Pan artesanal, doble carne de res, tocino, doble queso cheddar, cebolla sofrita, lechuga, tomate, salsa de maíz, salsa de tomate y mayonesa",
         price: 20900,
@@ -34,7 +34,7 @@ const store = new Vuex.Store({
       },
       {
         id: 4,
-        image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/La%20detonadora.png?alt=media&token=1c83a244-49c1-4d92-a8ad-299903145cbb",
+        image: "https://i.imgur.com/ww7iD0L.png",
         name: "La Parchada",
         description: "Pan artesanal, carne de res, queso cheddar, salsa de maíz, salsa de tomate, mayonesa.",
         price: 13900,
@@ -42,7 +42,7 @@ const store = new Vuex.Store({
       },
       {
         id: 5,
-        image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/pngwing.com.png?alt=media&token=e9d5e2d2-e4d4-4b86-b8eb-a35ea9ab3f08",
+        image: "https://i.imgur.com/yvWhOMY.png",
         name: "Papas a la francesa",
         description: "",
         price: 5000,
@@ -50,7 +50,7 @@ const store = new Vuex.Store({
       },
       {
         id: 6,
-        image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/COCA-COLA-400-ML.png?alt=media&token=eac335a0-81bf-4fd0-b7a7-71b9031f6ea6",
+        image: "https://i.imgur.com/ziDHlUw.png",
         name: "Cocacola 500ml",
         description: "",
         price: 5000,
@@ -58,7 +58,7 @@ const store = new Vuex.Store({
       },
       {
         id: 7,
-        image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/agua-brisa.png?alt=media&token=aa287a92-79ff-4f01-a7fd-c4498e5210cd",
+        image: "https://i.imgur.com/4lzYHXv.png",
         name: "Agua Brisa 600ml",
         description: "",
         price: 3000,
@@ -66,7 +66,7 @@ const store = new Vuex.Store({
       },
       {
         id: 7,
-        image: "https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/licuado-amarillo.png?alt=media&token=32571ce3-94b6-4888-8a97-01e8e73cc7ad",
+        image: "https://i.imgur.com/csijelq.png",
         name: "Licuado frutos amarillos",
         description: "",
         price: 6000,

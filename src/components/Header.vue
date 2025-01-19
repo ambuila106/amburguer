@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header__logo">
-      <img src="https://firebasestorage.googleapis.com/v0/b/amburguer-cbd19.firebasestorage.app/o/logo%20amburguer.png?alt=media&token=1dedc1a7-db0b-4967-a0c5-5f9694737eb4" alt="">
+      <img src="https://i.imgur.com/3ByC2Jc_d.webp?maxwidth=760&fidelity=grand" alt="">
     </div>
     <span class="header__title"></span>
   </div>
