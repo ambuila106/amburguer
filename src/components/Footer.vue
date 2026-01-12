@@ -57,16 +57,51 @@ export default {
   justify-content: center;
   align-items: center;
   color: #edf2f4;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.footer:hover {
+  background-color: #d90429;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    height: 70px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    height: 80px;
+    font-size: 20px;
+  }
 }
 
 .cart {
   position: relative;
+  margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .cart {
+    margin-right: 1.5rem;
+  }
+}
+
+.cart svg {
+  transition: transform 0.2s ease;
+}
+
+.footer:hover .cart svg {
+  transform: scale(1.1);
 }
 
 .cart span{
   background-color: #2b2d42;
   position: absolute;
-  border-radius: 47px;
+  border-radius: 50%;
   width: 25px;
   height: 25px;
   display: flex;
@@ -75,5 +110,16 @@ export default {
   right: 6px;
   font-size: 12px;
   top: -10px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .cart span {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    right: 8px;
+    top: -12px;
+  }
 }
 </style>

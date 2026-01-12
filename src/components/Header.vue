@@ -40,16 +40,47 @@ export default {
   z-index: 3;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 15px 40px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 15px 60px;
+    height: 90px;
+  }
 }
 
 .header__logo {
-  margin: 7px 0 0 20px;
+  margin: 0;
   width: 250px;
   object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+    width: 280px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__logo {
+    width: 300px;
+  }
 }
 
 .header__logo img {
   width: 100%;
+  height: auto;
 }
 
 .header__title {
@@ -60,5 +91,11 @@ export default {
   display: flex;
   align-items: center;
   padding-top: 0.1rem
+}
+
+@media (min-width: 768px) {
+  .header__title {
+    font-size: 28px;
+  }
 }
 </style>

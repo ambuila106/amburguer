@@ -60,23 +60,61 @@ export default {
   background-color: #25D366;
   box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.05);
   width: 100%;
-  position: fixed;
+  position: sticky;
   z-index: 3;
   bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.finalize-order:hover {
+  background-color: #20ba5a;
+}
+
+@media (min-width: 768px) {
+  .finalize-order {
+    height: 70px;
+    font-size: 18px;
+    border-radius: 0 0 20px 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .finalize-order {
+    height: 80px;
+    font-size: 20px;
+  }
 }
 
 .cart {
   position: relative;
+  margin-right: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .cart {
+    margin-right: 1rem;
+  }
+}
+
+.cart svg {
+  transition: transform 0.2s ease;
+}
+
+.finalize-order:hover .cart svg {
+  transform: scale(1.1);
 }
 
 .cart span{
   background-color: #2b2d42;
   position: absolute;
-  border-radius: 47px;
+  border-radius: 50%;
   width: 25px;
   height: 25px;
   display: flex;
@@ -85,5 +123,16 @@ export default {
   right: 6px;
   font-size: 12px;
   top: -10px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .cart span {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    right: 8px;
+    top: -12px;
+  }
 }
 </style>

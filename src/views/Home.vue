@@ -9,7 +9,6 @@
         :price="product.price"
         v-for="product in products"
         :key="product.id"
-        class="mb-3"
         @addProduct="addProduct"
         :id="product.id"
       />
@@ -78,14 +77,40 @@ export default {
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .products {
-  padding: 90px 25px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  max-width: 700px;
+  padding: 90px 15px 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 1400px;
+  width: 100%;
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .products {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2.5rem;
+    padding: 100px 40px 140px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 3rem;
+    padding: 110px 60px 150px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+  }
 }
 
 .slide-fade-enter-active {
