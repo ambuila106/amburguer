@@ -46,7 +46,7 @@ export default {
     },
 
     finalizeOrder(){
-      let number = 3214020472
+      let number = 3213088733
       let order = this.getTextOrder()
       window.location.href = 'https://wa.me/' + "57" + number + "?text=" + order
     }
