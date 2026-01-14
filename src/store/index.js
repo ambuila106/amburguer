@@ -13,7 +13,7 @@ const store = new Vuex.Store({
         image: "https://i.imgur.com/ww7iD0L.png",
         name: "La Detonadora",
         description: "Pan artesanal, carne de res (125gr), tocino, queso fundido, cebolla sofrita, tomate, salsa de maíz, salsa de tomate y mayonesa",
-        price: 15900,
+        price: 16900,
         category: "general",
       },
       {
